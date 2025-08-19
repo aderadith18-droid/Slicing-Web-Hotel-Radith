@@ -1,0 +1,165 @@
+body {
+  font-family: 'Actor', sans-serif;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #f3eee7;
+}
+
+.top-navbar {
+  background-color: #f3eee7;
+  border-bottom: 1px solid #f3eee7;
+}
+
+.menu-icon {
+  font-family: "Actor", sans-serif;
+  cursor: pointer;
+  font-size: 25px;
+  color: #333;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: #333;
+}
+
+.logo {
+  font-size: 36px;
+  letter-spacing: 8px;
+  font-weight: normal;
+  color: #333;
+  font-family: "Actor", sans-serif;
+}
+
+.language {
+  font-size: 16px;
+  text-decoration: underline;
+  margin-right: 50px;
+  cursor: pointer;
+  color: #333;
+}
+
+.reserve-btn {
+  padding: 5px 20px;
+  border-radius: 0;
+}
+
+.bottom-navbar {
+  background-color: #f3eee7;
+  border-bottom: 1px solid #e0dcd6;
+  border-top: 1px solid #e0dcd6;
+}
+
+#active-nav {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.nav-list {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+
+.nav-list li {
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-list li:hover {
+  color: #999;
+}
+
+#nonactive-nav {
+  font-family: 'Whitney SSm A', sans-serif;
+  font-size: 12px;
+  color: #999;
+}
+
+.indicator {
+padding-top: 200px !important;
+transition: .5s ease-in-out;
+}
+.section-accommodation {
+  background-color: #f3eee7;
+  padding: 60px 40px 120px; /* atas kanan/kiri bawah */
+}
+#accommodations {
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  color: #333;
+}
+.link-container {
+  display: flex;
+  padding-top: 10px;
+
+}
+
+.section-container {
+  display: flex;
+  align-items: stre;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  background-color: #ffffff; /* Warna latar seperti di gambar */
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  outline: none;
+}
+.text {
+  margin-top: 20px;
+}
+#font {
+  font-family: "actor", sans-serif;
+}
+.category {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999;
+  margin-bottom: 8px;
+}
+h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 20px;
+}
+img,
+div img {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+div {
+  border: none !important;
+  outline: none !important;
+}
+.TimesNewRoman {
+  font-family: 'Times New Roman', Times, serif;
+}
+.button-accommodation {
+  border-bottom: #333 solid 1px !important;
+  padding: 12px 0px !important;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
